@@ -1,0 +1,5 @@
+.npmignore
+.gitattributes
+.travis.yml
+test
+Gruntfile.js

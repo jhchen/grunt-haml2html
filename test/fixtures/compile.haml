@@ -1,0 +1,26 @@
+- entries = [{  :title => "The Fellowship of the Ring",
+                :body => "We should walk instead of fly" },
+             {  :title => "The Two Towers",
+                :body => "We're working on a third" },
+             {  :title => "The Return of the King", 
+                :body => "He's back from vacation" }]
+
+!!! 5
+%html
+  %head
+    %title Blog
+    %meta{"http-equiv" => "Content-Type", :content => "text/html; charset=utf-8"}
+    %link{"rel" => "stylesheet", "href" => "main.css", "type" => "text/css"}
+  %body
+    #header
+      %h1 Blog
+      %h2 Jason's Blog
+    #content
+      - entries.each do |entry|
+        .entry
+          %h3.title= entry[:title]
+          %p.body= entry[:body]
+    #footer
+      %p
+        All content copyright © Jason
+        
