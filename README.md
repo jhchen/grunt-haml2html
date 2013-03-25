@@ -1,4 +1,4 @@
-# grunt-contrib-haml [![Build Status](https://secure.travis-ci.org/jhchen/grunt-contrib-haml.png?branch=master)](http://travis-ci.org/jhchen/grunt-contrib-haml)
+# grunt-contrib-haml [![Build Status](https://secure.travis-ci.org/jhchen/grunt-contrib-haml.png?branch=master)](http://travis-ci.org/jhchen/grunt-contrib-haml) 
 
 > Compile Haml to HTML
 
