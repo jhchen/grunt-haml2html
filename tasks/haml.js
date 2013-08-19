@@ -18,11 +18,11 @@ module.exports = function(grunt) {
 
     grunt.verbose.writeflags(options, 'Options');
 
+    var bundleExec = options.bundleExec;
+    delete options.bundleExec;
+
     grunt.util.async.forEachSeries(this.files, function(f, next) {
       var args;
-      var bundleExec = options.bundleExec;
-
-      delete options.bundleExec;
 
       args = [f.dest, '--stdin'].concat(helpers.optsToArgs(options));
 
