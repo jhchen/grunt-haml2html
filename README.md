@@ -125,6 +125,7 @@ grunt.initConfig({
 
 ## Release History
 
+ * 2013-08-19   v0.1.1   Bug fix #1 (Thanks @shahata)
  * 2013-03-23   v0.1.0   Initial release. Mostly a modification of https://github.com/gruntjs/grunt-contrib-sass
 
 ---
