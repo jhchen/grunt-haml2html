@@ -1,7 +1,7 @@
 {
   "name": "grunt-contrib-haml",
   "description": "Compile Haml to HTML",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "homepage": "https://github.com/jhchen/grunt-contrib-haml",
   "contributors": [{
     "name": "Jason Chen",
