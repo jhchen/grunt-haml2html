@@ -8,11 +8,12 @@
 
 'use strict';
 
+var dargs = require('dargs');
+
 module.exports = function(grunt) {
   var path = require('path');
 
   grunt.registerMultiTask('haml', 'Compile Haml to HTML', function() {
-    var helpers = require('grunt-lib-contrib').init(grunt);
     var options = this.options();
     var cb = this.async();
 
@@ -22,11 +23,7 @@ module.exports = function(grunt) {
     delete options.bundleExec;
 
     grunt.util.async.forEachSeries(this.files, function(f, next) {
-      var args;
-
-      args = [f.dest, '--stdin'].concat(helpers.optsToArgs(options));
-
-      args.unshift('haml');
+      var args = ['haml', f.dest, '--stdin'].concat(dargs(options));
 
       if (bundleExec) {
         args.unshift('bundle', 'exec');
