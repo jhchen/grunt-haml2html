@@ -28,6 +28,8 @@ _Run this task with the `grunt haml` command._
 This task requires you to have [Ruby](http://www.ruby-lang.org/en/downloads/) and [Haml](http://haml.info/). If you're on OS X or Linux you probably already have Ruby installed, try `ruby -v` in your terminal. When you've confirmed you have Ruby installed, run `gem install haml` to install Haml.
 ### Options
 
+Any HAML options are also valid. Ex. { format: 'html5' } will run haml with --format html5.
+
 #### loadPath
 Type: `String|Array`
 
@@ -37,6 +39,11 @@ Add a (or multiple) Haml import path.
 Type: `Boolean`
 
 Run `haml` with [bundle exec](http://gembundler.com/v1.3/man/bundle-exec.1.html): `bundle exec haml`.
+
+#### encoding
+Type: `String`
+
+Specifiy default character encoding. Same as running haml with the -E option.
 
 ### Examples
 
@@ -53,6 +60,7 @@ grunt.initConfig({
     },
     dev: {                             // Another target
       options: {                       // Target options
+        bundleExec: true,
         style: 'expanded'
       },
       files: {
