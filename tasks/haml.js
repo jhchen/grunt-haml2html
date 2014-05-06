@@ -22,11 +22,18 @@ module.exports = function(grunt) {
     var bundleExec = options.bundleExec;
     delete options.bundleExec;
 
+    var encoding = options.encoding;
+    delete options.encoding;
+
     grunt.util.async.forEachSeries(this.files, function(f, next) {
       var args = ['haml', f.dest, '--stdin'].concat(dargs(options));
 
       if (bundleExec) {
         args.unshift('bundle', 'exec');
+      }
+
+      if (encoding) {
+        args.push('-E', encoding);
       }
 
       var max = f.src.filter(function(filepath) {
