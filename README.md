@@ -133,6 +133,8 @@ grunt.initConfig({
 
 ## Release History
 
+ * 2014-05-06   v0.2.0   Add encoding option
+ * 2014-03-01   v0.1.2   Update deprecated dependency
  * 2013-08-19   v0.1.1   Bug fix #1 (Thanks @shahata)
  * 2013-03-23   v0.1.0   Initial release. Mostly a modification of https://github.com/gruntjs/grunt-contrib-sass
 
