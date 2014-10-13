@@ -1,11 +1,3 @@
-/*
- * grunt-contrib-haml
- * http://gruntjs.com/
- *
- * Copyright (c) 2012 Sindre Sorhus, contributors
- * Licensed under the MIT license.
- */
-
 'use strict';
 
 var dargs = require('dargs');
@@ -62,7 +54,7 @@ module.exports = function(grunt) {
           return grunt.warn(
             'You need to have Ruby and Haml installed and in your PATH for\n' +
             'this task to work. More info:\n' +
-            'https://github.com/jhchen/grunt-contrib-haml'
+            'https://github.com/jhchen/grunt-haml2html'
           );
         }
         next(error);

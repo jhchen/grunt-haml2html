@@ -1,4 +1,4 @@
-# grunt-contrib-haml [![Build Status](https://secure.travis-ci.org/jhchen/grunt-contrib-haml.png?branch=master)](http://travis-ci.org/jhchen/grunt-contrib-haml) 
+# grunt-haml2html [![Build Status](https://secure.travis-ci.org/jhchen/grunt-haml2html.png?branch=master)](http://travis-ci.org/jhchen/grunt-haml2html)
 
 > Compile Haml to HTML
 
@@ -10,13 +10,13 @@ This plugin requires Grunt `~0.4.0`
 If you haven't used [Grunt](http://gruntjs.com/) before, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide, as it explains how to create a [Gruntfile](http://gruntjs.com/sample-gruntfile) as well as install and use Grunt plugins. Once you're familiar with that process, you may install this plugin with this command:
 
 ```shell
-npm install grunt-contrib-haml --save-dev
+npm install grunt-haml2html --save-dev
 ```
 
 Once the plugin has been installed, it may be enabled inside your Gruntfile with this line of JavaScript:
 
 ```js
-grunt.loadNpmTasks('grunt-contrib-haml');
+grunt.loadNpmTasks('grunt-haml2html');
 ```
 
 
@@ -75,7 +75,7 @@ grunt.initConfig({
   }
 });
 
-grunt.loadNpmTasks('grunt-contrib-haml');
+grunt.loadNpmTasks('grunt-haml2html');
 
 grunt.registerTask('default', ['jshint', 'haml']);
 ```

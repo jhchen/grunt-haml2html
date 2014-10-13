@@ -1,8 +1,8 @@
 {
-  "name": "grunt-contrib-haml",
+  "name": "grunt-haml2html",
   "description": "Compile Haml to HTML",
   "version": "0.2.0",
-  "homepage": "https://github.com/jhchen/grunt-contrib-haml",
+  "homepage": "https://github.com/jhchen/grunt-haml2html",
   "contributors": [{
     "name": "Jason Chen",
     "url": "http://www.jasonchen.me/"
@@ -12,15 +12,15 @@
   }],
   "repository": {
     "type": "git",
-    "url": "git://github.com/jhchen/grunt-contrib-haml.git"
+    "url": "git://github.com/jhchen/grunt-haml2html.git"
   },
   "bugs": {
-    "url": "https://github.com/jhchen/grunt-contrib-haml/issues"
+    "url": "https://github.com/jhchen/grunt-haml2html/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/jhchen/grunt-contrib-haml/blob/master/LICENSE-MIT"
+      "url": "https://github.com/jhchen/grunt-haml2html/blob/master/LICENSE-MIT"
     }
   ],
   "main": "Gruntfile.js",
