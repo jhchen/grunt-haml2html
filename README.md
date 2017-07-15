@@ -1,3 +1,7 @@
+# DEPRECATED
+
+This library is no longer being maintained. Please take a look at [grunt-haml](https://www.npmjs.com/package/grunt-haml) as an alternative.
+
 # grunt-haml2html [![Build Status](https://secure.travis-ci.org/jhchen/grunt-haml2html.png?branch=master)](http://travis-ci.org/jhchen/grunt-haml2html)
 
 > Compile Haml to HTML
